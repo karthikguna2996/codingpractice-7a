@@ -1,0 +1,23 @@
+GET http://localhost:3003/players/2/
+###
+
+PUT http://localhost:3003/players/5/
+content-type :  application/json
+
+{
+  "playerName": "Ram"
+}
+###
+
+GET http://localhost:3003/matches/18/
+###
+
+
+GET http://localhost:3003/players/1/matches 
+###
+
+GET http://localhost:3003/matches/5/players
+###
+
+
+GET http://localhost:3003/players/1/playerScores
